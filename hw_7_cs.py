@@ -96,6 +96,16 @@ def while_loops():
         x += 1
     print('The number of times ' + str(n) + ' can be divided as a whole number: ' + str(sum))
 
+    ##This loop sums numbers until 999 is entered.
+    x = 0
+    sum = 0
+    while x != 999:
+        x = eval(input("Enter a number to sum: 999 to quit "))
+        sum += x
+        print('The sum is : ' + str(sum))
+
+
+
 
 
 
